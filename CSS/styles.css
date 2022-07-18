@@ -3,7 +3,10 @@
   --secondary-font: "Raleway", sans-serif;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
+  --tertary-text-color: #ffffff;
   --accent-color: #2196f3;
+  --primary-background: #ffffff;
+  --secondary-background: #2f303a;
 }
 
 .list {
@@ -18,21 +21,27 @@ body {
   font-family: var(--primary-font);
   color: var(--primary-text-color);
   font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
+  background-color: var(--primary-background);
 }
 
 /*=============HEADER==============*/
 
 .menu-link {
   font-weight: 500;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.background-studio,
+.background-portfolio {
+  color: var(--accent-color);
 }
 
 /*===============HEADER===========*/
@@ -46,7 +55,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primary-text-color);
 }
 
 .modal-btn {
@@ -57,8 +66,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--tertary-text-color);
+  background-color: var(--accent-color);
 }
 
 /*.modal-btn :hover,
@@ -85,11 +94,12 @@ body {
 }
 
 .logo-them-dark {
-  color: #ffffff;
+  color: var(--tertary-text-color);
 }
 
 .contact-mail {
   font-weight: 500;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -108,6 +118,7 @@ body {
 
 .phone-number {
   font-weight: 500;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
@@ -126,10 +137,12 @@ body {
 }
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--secondary-background);
 }
 
 .quality-title {
+  font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -138,7 +151,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.teamwork {
+.section-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -168,11 +181,11 @@ body {
 
 .google-maps {
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--tertary-text-color);
 }
 
 .page-footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-background);
 }
 
 /*===========PORTFOLIO===============*/
@@ -190,12 +203,16 @@ body {
 .button-filter:hover,
 .button-filter:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--tertary-text-color);
+}
+
+.button-filter.button-filter-all {
+  background-color: var(--accent-color);
 }
 
 .name-project {
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
