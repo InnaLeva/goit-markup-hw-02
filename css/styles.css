@@ -16,14 +16,14 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
-.header-logo .header-logo-web {
-    color: #4d5ae5;
+.header-logo .header-logo-studio {
+    color: #2e2f42;
 }
 
 .header-menu-item {
@@ -40,6 +40,10 @@ a {
     color: #404bbf;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .address-item {
 font-family: "Roboto", sans-serif;
 font-weight: 400;
@@ -51,7 +55,7 @@ color: #434455;
 
 .address-list .address-item:hover,
 .address-list .address-item:focus {
-    color:#4d5ae5
+    color:#404bbf
 }
 
 .header-mail {
@@ -67,7 +71,7 @@ color: #434455;
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;        
+    line-height: 1.07;        
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -115,19 +119,28 @@ color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 /*==========================*/
 
 /*=========our team==========*/
 
-.seaction-team-list {
-        background: #fff;
+.section-team {
+    background-color: #F4F4FD;
 }
 
-.seaction-team-subtitle {
+.seaction-team-list {
+    background: #fff;
+}
+
+.section-team-item {
+   background:  #FFFFFF;
+}
+
+.section-team-subtitle {
    font-weight: 500;
    font-size: 20px;
-   line-height: 1.2;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
@@ -173,14 +186,14 @@ color: #434455;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
-.footer-logo .footer-logo-web {
-    color:#4d5ae5;
+.footer-logo .footer-logo-studio {
+    color:#f4f4fd;
 }
 
 .footer-text {
