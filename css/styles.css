@@ -123,6 +123,11 @@ color: #434455;
 
 /*=========our team==========*/
 
+.seaction-team-list {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: #fff;
+}
+
 .seaction-team-subtitle {
    font-weight: 500;
    font-size: 20px;
@@ -142,6 +147,10 @@ color: #434455;
 /*==========================*/
 
 /*=============portfolio=============*/
+
+.section-portfolio-list {
+    background: #fff;
+}
 
 .section-portfolio-subtitle {
     font-weight: 500;
